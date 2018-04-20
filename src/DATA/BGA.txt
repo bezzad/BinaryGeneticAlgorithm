@@ -1,0 +1,41 @@
+1.   Cost Function (Fitness Function)
+
+ 
+2.   Select Resulation (ÇäÊÎÇÈ ÊÚÏÇÏ ˜á ÈíÊ åÇí åÑ ˜ÑæãÒæã) (Example: Nbit = 32)
+
+
+3.   Select Population Size  (Example:  Npop = 8)
+
+
+4.   Create Function (Example: Uniform) Create Rondoming First Population (Matris Npop × Nbit)
+
+
+****** Lable LOOP 
+5.   Evaluate Chromosom Fitness 
+
+
+6.   Sort All Chromosom Order by Fiteness Cost (Example: Quick Sort function)
+
+
+7.   Selection Function (Crossover Fraction [Example = 0.8 ==> Xrate = 80%]) (Chromosom fitness Average function for change Xrate number)
+
+
+8.   Reproduction (Example: Rank) (åÑ ˜ÑæãÒæã ÇÑÒÔ ÈíÔÊÑí ÏÇÔÊå ÈÇÔÏ ÔÇäÓ ÇäÊÎÇÈ ÔÏä Èå ÚäæÇä ÏÑ æ ãÇÏÑÔ ÒíÇÏ ÇÓÊ) Fitness Scaling Function (ÊÇÈÚ ãÞíÇÓ ÐÇÑí ÔÇíÓÊí)
+
+
+9.   Crossover Function (Example: Single Point - Two Point - Uniform - Arithmetic)
+
+
+10.  Mutation Function (Example: Uniform) (Elit Count [Example = 2]) * Don't Change Elit Chromosom in Mutation Mission
+
+
+11.  if(All chromosom Like to self) then END
+     else   goto Loop
+
+
+
+
+Rank Weighting ==> 
+(( 1 + Number Of Remaining Chromosom ) - No. Chromosom ) / (Sum of Cost)
+
+First Create Fitness Cost == Sum(Cost) - Cost
